@@ -1,0 +1,64 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.bg-header {
+  background-color: #008d4c;
+}
+
+.judul {
+  color: #fbbc05;
+}
+
+.bg-nav {
+  background-color: #055e35;
+}
+
+.navBar {
+  font-size: 1vmax;
+  width: 100%;
+}
+.navBar ul li {
+  padding: 0 2px;
+}
+
+.slider {
+  height: 678px;
+  width: 1440px;
+}
+
+.visi {
+  height: 90px;
+}
+
+/* Responsive */
+
+/* Tablet */
+@media screen and (max-width: 1106px) {
+  #smk-bisa {
+    display: none;
+  }
+}
+
+/* Handphone */
+@media screen and (max-width: 768px) {
+  #logo-maarif {
+    height: 113px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    position: relative;
+  }
+  .slider {
+    height: auto;
+  }
+
+  .nama {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
