@@ -1,8 +1,25 @@
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+header {
+  background-color: #008d4c;
+}
+
 .bg-header {
   background-color: #008d4c;
+}
+
+#logo {
+  height: 113px;
+}
+
+.nama {
+  font-size: 1.7rem;
+}
+
+.nama p {
+  margin-bottom: 0;
 }
 
 .judul {
@@ -22,7 +39,7 @@
 }
 
 .slider {
-  height: 678px;
+  height: 505px;
   width: 1440px;
 }
 
@@ -33,7 +50,7 @@
 /* Responsive */
 
 /* Tablet */
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 887px) {
   #smk-bisa {
     display: none;
   }
@@ -41,8 +58,8 @@
 
 /* Handphone */
 @media screen and (max-width: 576px) {
-  #logo-maarif {
-    height: 113px;
+  #logo {
+    height: 80px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -59,6 +76,7 @@
     margin-right: auto;
     display: block;
     float: none;
-    text-align: center;
+    font-size: 1rem;
+    padding: 0.3em;
   }
 }
