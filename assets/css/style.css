@@ -53,6 +53,10 @@ header {
   #smk-bisa {
     display: none;
   }
+  
+  #search {
+    display: none !important;
+  }
 }
 
 /* Handphone */
