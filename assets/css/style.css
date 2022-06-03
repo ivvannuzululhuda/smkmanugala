@@ -33,8 +33,27 @@ header {
   font-size: 1vmax;
   width: 100%;
 }
+
 .navBar ul li {
   padding: 0 2px;
+}
+
+.menu {
+  background-color: #008d4c !important;
+  color: white !important;
+  padding: 0 !important;
+}
+
+.menu li {
+  padding: 0 !important;
+}
+.menu li a:hover {
+  background: #055e35 !important;
+  color: white !important;
+}
+
+.menu li a {
+  color: white;
 }
 
 .slider {
