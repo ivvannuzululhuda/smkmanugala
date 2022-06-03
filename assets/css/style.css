@@ -33,14 +33,14 @@
 /* Responsive */
 
 /* Tablet */
-@media screen and (max-width: 1106px) {
+@media screen and (max-width: 768px) {
   #smk-bisa {
     display: none;
   }
 }
 
 /* Handphone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   #logo-maarif {
     height: 113px;
     width: auto;
