@@ -48,7 +48,7 @@ header {
 /* Responsive */
 
 /* Tablet */
-@media screen and (max-width: 887px) {
+@media screen and (max-width: 880px) {
   #smk-bisa {
     display: none;
   }
