@@ -174,11 +174,35 @@ footer {
     padding: 0.3em;
   }
 
-  .navBar{
+  .navBar {
     font-size: 1rem;
   }
-  
+
   .nama p {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #logo {
+    height: 70px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    position: relative;
+  }
+
+  .nama p {
+    font-size: 0.9rem;
+  }
+
+  .navBar {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-menu ul li {
+    font-size: 0.93rem;
   }
 }
