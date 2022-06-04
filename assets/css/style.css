@@ -1,9 +1,11 @@
-* {
+body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(241, 241, 241) !important;
 }
 
+/* Header */
 header {
-  background-color: #008d4c;
+  background-color: #008d4c !important;
 }
 
 .bg-header {
@@ -14,8 +16,6 @@ header {
   height: 113px;
 }
 
-
-
 .nama p {
   margin-bottom: 0;
   font-size: 1.7rem;
@@ -25,6 +25,12 @@ header {
   color: #fbbc05;
 }
 
+.deskripsi {
+  color: white;
+}
+/* Akhir Header */
+
+/* Navbar */
 .bg-nav {
   background-color: #055e35;
 }
@@ -55,6 +61,9 @@ header {
 .menu li a {
   color: white;
 }
+/* Akhir Navbar */
+
+/* Slider */
 
 .slider {
   height: 505px;
@@ -65,14 +74,48 @@ header {
   height: 90px;
 }
 
+/* Akhir Slider */
+
+/* Content */
+
+.text-judul {
+  font-weight: bold;
+  border-bottom: 6px solid #fbbc05;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+.text-judul:after {
+  content: "";
+  width: 10%;
+  border-bottom: 6px solid #055e35;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  position: absolute;
+  display: block;
+}
+
+/* Akhir Content */
+
+/* Footer */
+footer {
+  background-color: #008d4c;
+  color: white;
+}
+
+.copyright {
+  background-color: #055e35 !important;
+}
+/* Akkhir Footer */
+
 /* Responsive */
 
 /* Tablet */
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 877px) {
   #smk-bisa {
     display: none;
   }
-  
+
   #search {
     display: none !important;
   }
@@ -98,10 +141,10 @@ header {
     margin-right: auto;
     display: block;
     float: none;
-    font-size: 1rem;
     padding: 0.3em;
   }
-  
+
   .nama p {
     font-size: 1rem;
+  }
 }
