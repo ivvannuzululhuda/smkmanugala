@@ -8,6 +8,10 @@ body a {
   text-decoration: none;
 }
 
+.cek {
+  position: absolute;
+}
+
 body a:hover {
   color: #555454;
 }
@@ -23,20 +27,30 @@ header {
 
 #logo {
   height: 113px;
+  float: left;
+
 }
 
-.nama p {
+.description {
+  float: left;
   margin-bottom: 0;
-  font-size: 1.7rem;
+  margin-top: 10px;
 }
 
-.judul {
+.site-title {
   color: #fbbc05;
+  font-size: 28px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-.deskripsi {
+.site-description {
   color: white;
+  font-size: 14px;
+  margin-bottom: 0;
 }
+
+
 /* Akhir Header */
 
 /* Navbar */
@@ -62,6 +76,7 @@ header {
 .menu li {
   padding: 0 !important;
 }
+
 .menu li a:hover {
   background: #055e35 !important;
   color: white !important;
@@ -70,6 +85,10 @@ header {
 .menu li a {
   color: white;
 }
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
 /* Akhir Navbar */
 
 /* Slider */
@@ -103,6 +122,14 @@ header {
   border-radius: 10px;
   position: absolute;
   display: block;
+
+
+}
+
+.pos:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.02);
+  transition: 0.5s;
 }
 
 /* Akhir Content */
@@ -116,6 +143,7 @@ footer {
 .copyright {
   background-color: #055e35 !important;
 }
+
 /* Akkhir Footer */
 
 /* Return to Top */
@@ -136,25 +164,47 @@ footer {
   left: 9px;
   top: 5px;
 }
+
 /* End Return to Top */
 
 /* Responsive */
 
+
 /* Tablet */
-@media screen and (max-width: 877px) {
+@media screen and (max-width: 884px) {
+  #logo {
+    float: none;
+  }
+
   #smk-bisa {
     display: none;
+  }
+
+  .description {
+    float: none;
   }
 
   #search {
     display: none !important;
   }
+
+  .title {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .atas-kiri {
+    text-align: center;
+  }
 }
+
 
 /* Handphone */
 @media screen and (max-width: 576px) {
   #logo {
-    height: 80px;
+    height: 90px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -162,11 +212,17 @@ footer {
     float: none;
     position: relative;
   }
+
+  .site-title {
+    font-size: ;
+  }
+
+
   .slider {
     height: auto;
   }
 
-  .nama {
+  .description {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -178,31 +234,19 @@ footer {
     font-size: 1rem;
   }
 
-  .nama p {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  #logo {
-    height: 70px;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: none;
-    position: relative;
+  .site-title {
+    font-size: 20px;
   }
 
-  .nama p {
-    font-size: 0.93rem;
+  .site-description {
+    font-size: 12px;
   }
 
-  .navBar {
-    font-size: 0.9rem;
+  .atas-kiri {
+    text-align: center;
   }
 
   .dropdown-menu ul li {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
   }
 }
